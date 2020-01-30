@@ -15,41 +15,52 @@ body {
   background: linear-gradient(135deg, #434343 0%, #000000 100%);
 };
 
+#title {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
 
 h1 {
-  color: $color3; 
-  font-family: $GF1;
+  color: $color2; 
+  font-family: $GF4;
 
 };
 
 h2 {
-  color: $color3; 
-  font-family: $GF1;
+  color: $color2; 
+  font-family: $GF4;
 
 };
 
 h3 {
-  color: $color3; 
-  font-family: $GF1;
+  color: $color2; 
+  font-family: $GF4;
 
 };
 
 
 h4 {
-  color: $color5;
-  font-family: $GF1;
+  color: $color2;
+  font-family: $GF4;
 };
 
 
 h5 {
-  color: $color3; 
-  font-family: $GF1;
+  color: $color2; 
+  font-family: $GF4;
 
 };
 
 h6 {
+  color: $color2; 
+  font-family: $GF4;
+
+};
+
+p {
   color: $color3; 
-  font-family: $GF1;
+  font-family: $GF4;
 
 };
 

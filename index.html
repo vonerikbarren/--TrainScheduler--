@@ -19,6 +19,8 @@
   //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
   <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Merriweather|Roboto&display=swap"
+    rel="stylesheet">
 
   <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   Head Section A.4: Projec CSS files using SASS
@@ -28,7 +30,7 @@
   <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
 
 
-  <title>Template</title>
+  <title>Train Scheduler</title>
 </head>
 
 
@@ -38,12 +40,79 @@
 
 <body>
   <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-  ACTUAL HTML :: Landing Page
+  ACTUAL HTML :: Landing Section
   //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
   <div class='container-fluid'>
     <div class='row'>
       <div class='col-md-12'>
         <div id='app' class='jumbotron bg-transparent'>
+
+          <!-- Train Time -->
+          <div class="container">
+            <!-- Jumbotron -->
+            <div id='title' class="jumbotron" style="background-color: rgb(45, 80, 25, 0.5); 
+            color: white -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);">
+              <h1 class="text-center">The Train Scheduler </h1>
+              <h3 class="text-center">Please Select a train with additional data below</h3>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <!-- Train Schedule -->
+                <div class="card">
+                  <div class="card-header">
+                    Current Train Schedule
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-hover" id='train-table'>
+                      <thead>
+                        <tr>
+                          <th>Train Name</th>
+                          <th>Destination</th>
+                          <th>Frequency (min)</th>
+                          <th>Next Arrival</th>
+                          <th>Minutes Away</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!-- Add Train  -->
+                <div class="card mt-2">
+                  <div class="card-header">
+                    Add Train
+                  </div>
+                  <div class="card-body">
+                    <!-- Entry Form -->
+                    <form>
+                      <div class="form-group">
+                        <label for="train-name-input">Train Name</label>
+                        <input type="text" class="form-control" id="train-name-input">
+                      </div>
+                      <div class="form-group">
+                        <label for="destination-input">Destination</label>
+                        <input type="text" class="form-control" id="destination-input">
+                      </div>
+                      <div class="form-group">
+                        <label for="first-train-input">First Train Time (HH:mm - military time)</label>
+                        <input type="text" class="form-control" id="first-train-input">
+                      </div>
+                      <div class="form-group">
+                        <label for="frequency-input">Frequency (min)</label>
+                        <input type="text" class="form-control" id="frequency-input">
+                      </div>
+                      <button type="submit" class="btn btn-primary" id="add-train-btn">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
 
         </div>
       </div>
@@ -109,13 +178,35 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
+
+  <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  Head Section Z.4. Other CDNs
+  //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+  <!-- Moment.js Reference -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+
+
+  <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  Head Section Z.5. FireBase CDNs
+  //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+
+
+
   <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   Head Section Z.1: Optional / Local  Javascript
   //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
   <script src="./libraries/p5.js"></script>
   <script src="./libraries/d3.js"></script>
   <script src="./Animation/sketch.js"></script>
-  <script src="./src/sidebar.js"></script>
+  <script src="./src/index.js"></script>
 
   <script src="./Animation/masterAnimation.js"></script>
 
