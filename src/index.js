@@ -1,4 +1,4 @@
-// Steps to complete:
+// pseudocode:
 
 // 1. Create Firebase link
 // 2. Create initial train data in database
@@ -12,14 +12,14 @@
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyAoyCpQzV_XEUDL95M-mG7mUhfbbWmUfms",
-  authDomain: "trainscheduler-40a05.firebaseapp.com",
-  databaseURL: "https://trainscheduler-40a05.firebaseio.com",
-  projectId: "trainscheduler-40a05",
-  storageBucket: "trainscheduler-40a05.appspot.com",
-  messagingSenderId: "663787879036",
-  appId: "1:663787879036:web:3d3ac78251f284488d67f9",
-  measurementId: "G-YDZW8FTKWM"
+  apiKey: "AIzaSyAs_Eh6lXijgzFFqmidt35VgA3-jDh7cPk",
+  authDomain: "trainscheduler-658d9.firebaseapp.com",
+  databaseURL: "https://trainscheduler-658d9.firebaseio.com",
+  projectId: "trainscheduler-658d9",
+  storageBucket: "trainscheduler-658d9.appspot.com",
+  messagingSenderId: "443421905245",
+  appId: "1:443421905245:web:07421dc57a62bd1e4698b4",
+  measurementId: "G-EMS3VHPLT9"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

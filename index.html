@@ -22,12 +22,25 @@
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Merriweather|Roboto&display=swap"
     rel="stylesheet">
 
+
+  <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  Head Section Z.5. FireBase CDNs
+  //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+
+
   <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   Head Section A.4: Projec CSS files using SASS
   //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
   <!-- <link rel="stylesheet" type="text/css" href="./stylesheets/main.scss"> -->
   <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
+
 
 
   <title>Train Scheduler</title>
@@ -50,9 +63,9 @@
           <!-- Train Time -->
           <div class="container">
             <!-- Jumbotron -->
-            <div id='title' class="jumbotron" style="background-color: rgb(45, 80, 25, 0.5); 
+            <div id='title' class="jumbotron" style="background-color: rgb(45, 80, 25, 0.01); 
             color: white -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);">
+                box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);">
               <h1 class="text-center">The Train Scheduler </h1>
               <h3 class="text-center">Please Select a train with additional data below</h3>
             </div>
@@ -168,8 +181,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);">
   <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   Head Section Z.3. jQuery, Bootstrap, & Popper.js
   //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -179,6 +191,10 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);">
     crossorigin="anonymous"></script>
 
 
+
+
+
+
   <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   Head Section Z.4. Other CDNs
   //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -186,29 +202,17 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);">
   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 
-
-  <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-  Head Section Z.5. FireBase CDNs
-  //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
-
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
-
-
-
-
   <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   Head Section Z.1: Optional / Local  Javascript
   //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-  <script src="./libraries/p5.js"></script>
-  <script src="./libraries/d3.js"></script>
+  <!-- <script src="./libraries/p5.js"></script>
+  <script src="./libraries/d3.js"></script> -->
   <script src="./Animation/sketch.js"></script>
-  <script src="./src/index.js"></script>
 
-  <script src="./Animation/masterAnimation.js"></script>
+
+  <!-- <script src="./Animation/masterAnimation.js"></script> -->
+
+  <script src="./src/index.js"></script>
 
 
 </body>
