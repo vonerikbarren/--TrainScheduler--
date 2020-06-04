@@ -1,6 +1,6 @@
 # --TrainScheduler--
 
-## Purpose
+## Section 1 - Purpose
 
 ## Directions
 
