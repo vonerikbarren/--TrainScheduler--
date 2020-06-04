@@ -19,6 +19,6 @@
 
 ---
 
-## Section 3 - Summary
+## Section 3 - Summary & Notes
 
 - This app was very enjoyable to make and learned alot! 
