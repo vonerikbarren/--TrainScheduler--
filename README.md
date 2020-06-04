@@ -6,6 +6,8 @@
 
 ## Section 2 - Directions
 
+### Please follow the directions below:
 
+1. 
 
 ## Section 3 - Summary
