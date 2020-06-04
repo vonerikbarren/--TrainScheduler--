@@ -4,6 +4,8 @@
 
 - The Purpose of this Application is to allow the user to sign up for a train and just keep track of the train's time and information concerning it.
 
+---
+
 ## Section 2 - Directions
 
 ### Please follow the directions below:
