@@ -21,4 +21,5 @@
 
 ## Section 3 - Summary & Notes
 
-- This app was very enjoyable to make and learned alot! 
+- This app was very enjoyable to make and learned alot!
+- This app specifically taught me how to use firebase and how to do AJAX calls.  
