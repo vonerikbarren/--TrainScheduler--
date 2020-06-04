@@ -4,4 +4,4 @@
 
 ## Section 2 - Directions
 
-## Summary
+## Section 3 - Summary
