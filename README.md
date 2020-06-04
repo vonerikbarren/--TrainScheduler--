@@ -12,5 +12,6 @@
 2. Scroll to where it says Add Train Below. 
 3. Type in the Train Name. Make sure there is nothing additional. 
 4. Type in the Destination. 
+5. Select the First Train Time and write it out in military time. 
 
 ## Section 3 - Summary
