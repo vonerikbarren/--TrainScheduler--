@@ -8,6 +8,7 @@
 
 ### Please follow the directions below:
 
-1. View the Trains already in the Schedule
+1. View the Trains already in the Schedule.
+2. Scroll to where it says Add Train Below. 
 
 ## Section 3 - Summary
