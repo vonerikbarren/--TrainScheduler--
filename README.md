@@ -13,5 +13,6 @@
 3. Type in the Train Name. Make sure there is nothing additional. 
 4. Type in the Destination. 
 5. Select the First Train Time and write it out in military time. 
+6. Select and Type in the Frequency listed or one you made yourself. 
 
 ## Section 3 - Summary
