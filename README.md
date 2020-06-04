@@ -16,3 +16,5 @@
 6. Select and Type in the Frequency listed or one you made yourself. 
 
 ## Section 3 - Summary
+
+- This app was very enjoyable to make and learned alot! 
