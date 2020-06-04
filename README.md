@@ -8,6 +8,6 @@
 
 ### Please follow the directions below:
 
-1. 
+1. View the Trains already in the Schedule
 
 ## Section 3 - Summary
